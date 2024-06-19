@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ระบบผู้ดูแลระบบ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ระบบผู้ดูแลระบบ</h1>
+    <div id="admin-section">
+        <h2>ผู้สมัคร</h2>
+        <div id="candidates-list">
+            <div class="candidate">
+                <span id="candidate-1">คนที่ 1</span>
+                <button onclick="editCandidate('1')">แก้ไข</button>
+            </div>
+            <div class="candidate">
+                <span id="candidate-2">คนที่ 2</span>
+                <button onclick="editCandidate('2')">แก้ไข</button>
+            </div>
+        </div>
+        <h2>ผลคะแนน</h2>
+        <div id="results"></div>
+    </div>
+    <script src="admin.js"></script>
+</body>
+</html>
